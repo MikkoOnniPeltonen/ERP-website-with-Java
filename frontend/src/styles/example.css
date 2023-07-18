@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #fff;
+    color: #000;
+}
+
+#productionLineSelect {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+
+
+.website-background {
+    margin-top: 1em;
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(orange, yellow);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header/Navbar */
+
+.main-header {
+    background-color: green;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    height: 100px;
+    padding: 0 30px;
+}
+
+/* Desktop Menu */
+
+.desktop-main-menu {
+    margin-right: 50px;
+}
+
+.desktop-main-menu ul {
+    display: flex;   
+}
+
+.desktop-main-menu ul li {
+    position: relative;
+    margin-right: 20px;
+    padding-bottom: 2px;
+
+}
+
+/* Desktop Side Menu */
+
+
+
+  .line-names {
+    color: green;
+    text-align: center;
+
+  }
+
+  /* Lists on the center */
+
+  .show-orders {
+    left: 25%;
+    position: relative;
+    align-self: right;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+
+  }
+
+  .show-orders .draggable {
+    position: relative;
+    display: inline-block;
+    align-self: center;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    cursor: move;
+  }
+
+  .draggable .dragging {
+    opacity: .5;
+  }
+
+  .show-orders .btn {
+    position: relative;
+    display: inline-block;
+    align-self: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .buttons button {
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    margin: 0 10px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background-color: #fff;
+    color: green;
+    border: 2px solid green;
+  }
+
+
+  .production-list {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+  }
+  
+  .select-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  #productionLineSelect {
+    margin-left: 20px;
+  }
+  
+
+  
+  
+  
